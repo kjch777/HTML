@@ -5,10 +5,51 @@
     <head>
         <meta charset="UTF-8">
         <title>홈페이지메인</title>
+        <style>
+            video {
+                width: 500px;
+                height: 500px;
+            }
+            table {
+                border: 1px;
+                border-collapse: collapse;
+            }
+            th, td, tr {
+                border: 1px solid;
+                text-align: center;
+            }
+        </style>
     </head>
 
     <body>
         <h1>동영상 게시판</h1>
+        <video autoplay muted loop>
+            <source src="C:/Users/user1/frontend-workspace/html/비디오들/210925_small.mp4" type="video/mp4">
+        </video>
+        <a href="홈페이지메인.html"><br>홈페이지로 돌아가기</a><br><br>
+        <a href="홈페이지게시판.html">홈페이지 게시판으로 이동하기</a>
+        <table>
+            <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>방문일</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>신짱구</td>
+                <td>2024-05-09</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>김철수</td>
+                <td>2024-05-08</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>이유리</td>
+                <td>2024-05-07</td>
+            </tr>
+        </table>
     </body>
 
 </html>
