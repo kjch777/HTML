@@ -33,8 +33,8 @@
         // window.location.href = "31_로그인결과.html";
 
         // 만약, 일치하는 아이디 비밀번호 정보가 없다면
-        if (loginID !== saveID && loginPW !== savePW) {
-          alert("일치하는 ID PW 가 없습니다.");
+        if (loginID !== saveID || loginPW !== savePW) {
+          alert("일치하는 ID 또는 PW 가 없습니다.");
           event.preventDefault(); // form 이동 막아버리기
         }
       }
